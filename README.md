@@ -1,4 +1,8 @@
 # AI Log Anomaly Detector
+![Python](https://img.shields.io/badge/python-3.8+-blue)
+![License: MIT](https://img.shields.io/badge/license-MIT-green)
+![Status](https://img.shields.io/badge/status-active-brightgreen)
+![Last Update](https://img.shields.io/github/last-commit/pako0174/ai-log-anomaly-detector)
 
 This project demonstrates how to use machine learning to detect anomalies in system log files. It is intended for educational purposes in the field of cybersecurity and AI.
 
