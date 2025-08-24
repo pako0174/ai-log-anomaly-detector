@@ -1,4 +1,3 @@
-[README.md](https://github.com/user-attachments/files/21955482/README.md)
 # AI Log Anomaly Detector
 
 This project demonstrates how to use machine learning to detect anomalies in system log files. It is intended for educational purposes in the field of cybersecurity and AI.
