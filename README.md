@@ -1,4 +1,5 @@
 # AI Log Anomaly Detector
+
 ![Python](https://img.shields.io/badge/python-3.8+-blue)
 ![License: MIT](https://img.shields.io/badge/license-MIT-green)
 ![Status](https://img.shields.io/badge/status-active-brightgreen)
@@ -9,14 +10,15 @@ This project demonstrates how to use machine learning to detect anomalies in sys
 ## 📌 Features
 - Detects unusual events in log files using AI
 - Based on IsolationForest algorithm
-- Easy to run and customize via Jupyter Notebook
-- Sample log files and data included
+- Uses time-based features to improve accuracy
+- Works in both Jupyter Notebook and CLI mode
 
 ## 🗂️ Project Structure
 ```
 data/         --> Sample log files (CSV)
 notebooks/    --> Jupyter notebooks with ML code
-src/          --> Python modules (coming soon)
+src/          --> Python modules (preprocessing & model)
+main.py       --> CLI script for full pipeline
 ```
 
 ## 🚀 Getting Started
@@ -33,19 +35,15 @@ pip install -r requirements.txt
 ```
 
 ### 3. Run the notebook
-Navigate to `notebooks/anomaly_detector.ipynb` and run all cells.
+Open `notebooks/anomaly_detector_v2.ipynb` and run all cells.
 
-## 🧪 Sample Output
-The model will label log events as either normal (1) or anomalous (-1). Example output:
-```
-  event_code  anomaly
-0         999       -1
-1         503       -1
-2         404        1
+### 4. Or run from CLI
+```bash
+python main.py
 ```
 
 ## 📄 License
-MIT
+This project is licensed under the MIT License.
 
 ---
 
